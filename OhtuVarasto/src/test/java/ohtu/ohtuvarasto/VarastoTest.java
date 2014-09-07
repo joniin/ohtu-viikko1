@@ -98,6 +98,6 @@ public class VarastoTest {
     public void otetaanLiikaa(){
         varasto.otaVarastosta(25);
         
-        assertEquals(4, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
 }
